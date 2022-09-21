@@ -79,8 +79,10 @@ p {
   width: 25%;
   height: 3em;
 }
+/* added color element to make it easier to read the site-plan jmh */
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color)
+  color: var(--paragraph-color-on-color);
 }
 .secondary {
   background-color: var(--secondary-color);
