@@ -81,7 +81,7 @@ p {
 /* added color element to make it easier to read the site-plan jmh */
 .primary {
   background-color: var(--primary-color);
-  color: white;
+  color: #ffffff;
 }
 .secondary {
   background-color: var(--secondary-color);
