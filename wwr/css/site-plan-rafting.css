@@ -9,10 +9,9 @@ Fonts are separated by a & */
   --secondary-color: #5EA4BF;
   --accent1-color: #F2C335;
   --accent2-color: #F2A341;
-  --accent3-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Archivo Black";
+  --heading-font: "Archivo Black", sans-serif;
   --paragraph-font: Quicksand, Arial, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -79,8 +78,10 @@ p {
   width: 25%;
   height: 3em;
 }
+/* added color element to make it easier to read the site-plan jmh */
 .primary {
   background-color: var(--primary-color);
+  color: var(--paragraph-color-on-color);
 }
 .secondary {
   background-color: var(--secondary-color);
