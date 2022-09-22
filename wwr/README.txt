@@ -15,3 +15,6 @@ Great Vibes - Cursive Font looks similar to my logo
     font-family: 'Fredoka One', cursive;
     font-family: 'Great Vibes', cursive;
     font-family: 'Quicksand', sans-serif;
+
+Validator:
+    https://validator.w3.org/
