@@ -5,7 +5,7 @@ https://onipaa.github.io/wdd130-30/wwr/site-plan-rafting.html
 https://onipaa.github.io/wdd130-30/wwr/validator-practice.html
 https://onipaa.github.io/wdd130-30/wwr/units-of-measurement.html
 https://onipaa.github.io/wdd130-30/wwr/block-vs-inline.html
-
+https://onipaa.github.io/wdd130-30/wwr/css-selectors.html
 
 
 Google Fonts:
