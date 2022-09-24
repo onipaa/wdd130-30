@@ -9,8 +9,9 @@ Fonts are separated by a & */
   --secondary-color: #5EA4BF;
   --accent1-color: #F2C335;
   --accent2-color: #F2A341;
-  --background-color:#fcfbfb;
+  --background-color:#f4f0f0;
   --header-background-color: rgba(20,30,13, .7);
+  --footer-background-color: rgba(20,30,13, .7);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Archivo Black", sans-serif;
@@ -182,6 +183,10 @@ exercises
   height: 725px;
   background-color: var(--background-color);
 }
+
+#hero-image {
+  width: 100%;
+}
 /* *************************************************************************** */
 /* classes */
 .book, .join {
@@ -196,7 +201,7 @@ exercises
 }
 
 .msg {
-  background-color: var(--background-color);
+  background-color: var(--header-background-color);
   color: var(--primary-color);
 }
 
@@ -224,7 +229,7 @@ h4 {
 }
 
 footer {
-  background-color: var(--background-color);
+  background-color: var(--footer-background-color);
 }
 
 footer h3 {
@@ -237,7 +242,8 @@ footer a {
 }
 
 footer p {
-  text-size: 1.2em;
+  text-size-adjust: 1.2em;
+  /*text-size: 1.2em;*/
 }
 
 footer a:hover {
