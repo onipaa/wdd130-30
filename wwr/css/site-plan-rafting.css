@@ -233,12 +233,13 @@ footer {
 }
 
 footer h3 {
-  color: var(--primary-color);
+  color: --var(--accent1-color);
 }
 
 footer a {
   color: var(--primary-color);
   text-decoration: none;
+  color: --var(--accent1-color);
 }
 
 footer p {
@@ -248,7 +249,7 @@ footer p {
 
 footer a:hover {
   background-color: var(--primary-color);
-  color: #d9c2a3;
+  color: --var(--accent1-color);
 }
 
 footer p a:hover {
