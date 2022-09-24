@@ -202,15 +202,15 @@ exercises
 
 .msg {
   background-color: var(--header-background-color);
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 .msg h2 {
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 .msg p {
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 .home-title {
@@ -243,6 +243,7 @@ footer a {
 
 footer p {
   font-size: 1.2em;
+  color: --var(--accent1-color);
 }
 
 footer a:hover {
