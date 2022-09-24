@@ -184,8 +184,19 @@ exercises
   background-color: var(--background-color);
 }
 
-#hero-image {
+#hero {
   width: 100%;
+}
+
+#hero-box {
+  width: 100%;
+}
+
+#hero-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 /* *************************************************************************** */
 /* classes */
