@@ -9,6 +9,7 @@ Fonts are separated by a & */
   --secondary-color: #5EA4BF;
   --accent1-color: #F2C335;
   --accent2-color: #F2A341;
+  --background-color:#fcfbfb;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Archivo Black", sans-serif;
@@ -33,6 +34,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: var(--background-color);
 }
 img {
   display: block;
@@ -55,7 +57,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color:rgba(20,30,13, .7);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -111,13 +113,14 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  color: var(--primary-color)
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: black;
 }
 .sitemap {
   display: grid;
@@ -161,4 +164,31 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/* my changes below, other than those made to fonts and such  from earlier exercises */
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#background {
+  height: 725px;
+  background-color: var(--background-color);
+}
+
+.book, .join {
+  background-color: var(--background-color);
+}
+
+.book:hover, .join.hover {
+  background-color: var(--background-color);
+}
+
+.msg {
+  background-color: var(--background-color);
+}
+
+footer {
+  background-color: var(--background-color);
 }
