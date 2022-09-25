@@ -176,12 +176,10 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-/* 
-my changes below, other than those made to fonts and such  from earlier 
-exercises
-*/
-/* *************************************************************************** */
-/* ids */
+/* *****************************************************************************
+my changes below, other than those made to fonts and such  from earlier exercises
+ids:
+***************************************************************************** */
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -216,6 +214,7 @@ exercises
 }
 /* *************************************************************************** */
 /* classes */
+/* *************************************************************************** */
 .book, .join {
   background-color: var(--background-color);
   color: var(--primary-color);
@@ -254,6 +253,7 @@ exercises
 }
 /* *************************************************************************** */
 /* built-ins */
+/* *************************************************************************** */
 h4 {
   background-color:  var(--background-color);
   color: var(--primary-color);
