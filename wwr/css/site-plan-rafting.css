@@ -245,6 +245,10 @@ exercises
   color: var(--primary-color);
 }
 
+.logo {
+  width: 80px;
+}
+
 .icon {
   width: 80px;
 }
