@@ -189,7 +189,7 @@ exercises
 
 #background {
   height: 725px;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
 
 #hero {
