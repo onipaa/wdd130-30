@@ -33,11 +33,13 @@ Fonts are separated by a & */
 body {
   max-width: 1600px;
   min-width: 760px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
   background-color: var(--background-color);
+  font-family: var(--paragraph-font);
+
 }
 img {
   display: block;
@@ -50,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -108,9 +111,12 @@ p.colored {
 }
 nav {
   background-color: var(--nav-background-color);
+  color: var(--accent1-color);
+  padding: 35px;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  text-decoration: none;
 }
 nav  {
   list-style-type: none;
@@ -212,6 +218,12 @@ ids:
   left: 50%;
   color: white;
 }
+
+#logo-link {
+  padding-top: 5px;
+}
+
+
 /* *************************************************************************** */
 /* classes */
 /* *************************************************************************** */
@@ -219,6 +231,10 @@ ids:
   background-color: var(--background-color);
   color: var(--primary-color);
   text-decoration: none;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 .book:hover, .join.hover {
@@ -229,6 +245,7 @@ ids:
 .msg {
   background-color: var(--header-background-color);
   color: var(--accent1-color);
+  line-height: 1.5em;
 }
 
 .msg h2 {
@@ -242,6 +259,8 @@ ids:
 .home-title {
   background-color: var(--accent1-color);
   color: var(--primary-color);
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .logo {
@@ -250,6 +269,18 @@ ids:
 
 .icon {
   width: 80px;
+}
+
+.rivers-card .camping-card .rapids-card {
+  margin-top: 200px 0;
+}
+
+.card-img {
+  border: 10px solid var(--primary-color);
+}
+
+main section img {
+  box-sizing: border-box;
 }
 /* *************************************************************************** */
 /* built-ins */
@@ -271,6 +302,7 @@ footer a {
   color: var(--primary-color);
   text-decoration: none;
   color: var(--accent1-color);
+  margin-top: 200px;
 }
 
 footer p {
