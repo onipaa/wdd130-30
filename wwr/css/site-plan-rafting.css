@@ -14,7 +14,7 @@ Fonts are separated by a & */
   --footer-background-color: rgba(20,30,13, .7);
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Archivo Black", sans-serif;
+  --heading-font: "Archivo Black", Arial, sans-serif;
   --paragraph-font: Quicksand, Arial, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
