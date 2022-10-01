@@ -35,6 +35,7 @@
 /* solve by using margins */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  background-color: white;
 }
 .red2 {
   width: 100px; 
