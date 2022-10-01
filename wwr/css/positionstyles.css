@@ -7,24 +7,24 @@
 }
 
 .red1 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px;
   grid-column: 1/3; 
   background-color: red; 
 } 
 .green1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
 
 } 
 .yellow1 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue1 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   grid-column: 1/3;
   background-color: blue; 
