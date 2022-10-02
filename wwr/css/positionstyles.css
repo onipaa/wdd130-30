@@ -135,7 +135,7 @@
 .red5 { 
   width: 100%; 
   min-height: 100px; 
-  min-width: 600px;
+  min-width: 900px;
   background-color: red; 
 } 
 .green5 {
@@ -149,7 +149,7 @@
 .yellow5 {
   padding: 20px;
   min-height: 300px;
-  min-width: 400px;
+  min-width: 900px;
   background-color: gold; 
 
 } 
