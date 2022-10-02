@@ -133,15 +133,14 @@
   display: block;
 }
 .red5 { 
-  width: 100%; 
-  min-height: 100px; 
   width: 100%;
+  min-height: 100px; 
   background-color: red; 
 } 
 .green5 {
   float: left; 
-  min-width: 150px; 
-  min-height: 150px; 
+  min-width: 250px; 
+  min-height: 250px; 
   background-color: green; 
   margin-right: 10px;
   margin-bottom: 10px;
