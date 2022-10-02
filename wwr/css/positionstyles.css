@@ -110,21 +110,21 @@
 
 .green4 {
   width: 100%;
-  height: 100%;
+  height: 33.3px;
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: green; 
 } 
 .yellow4 {
   width: 100%;
-  height: 100%;
+  height: 33.3px;
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: gold; 
 } 
 .blue4 {
   width: 100%;
-  height: 100%;
+  height: 33.3px;
   grid-column: 2/3;
   grid-row: 1/3;
   background-color: blue; 
