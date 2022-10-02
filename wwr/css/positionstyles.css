@@ -147,7 +147,7 @@
 } 
 .yellow5 {
   padding: 20px;
-    height: 300px;
+    height: 300px; /*making a change that GitHub cannot ignore */
     width: calc(100% - 10px);
     background-color: gold;
 }
