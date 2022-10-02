@@ -141,8 +141,8 @@
 } 
 .green5 {
   float: left; 
-  width: 200px; 
-  height: 200px; 
+  min-width: 200px; 
+  min-height: 200px; 
   background-color: green; 
   margin-right: 10px;
   margin-bottom: 10px;
