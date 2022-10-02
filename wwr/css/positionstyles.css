@@ -131,7 +131,6 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   display: block;
-  position: relative;
 }
 .red5 { 
   width: 100%; 
