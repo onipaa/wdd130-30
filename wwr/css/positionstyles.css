@@ -148,7 +148,7 @@
 .yellow5 {
   padding: 20px;
     height: 300px;
-    width: 100%;
+    width: calc(100% - 10px);
     background-color: gold;
 }
 .blue5 {
