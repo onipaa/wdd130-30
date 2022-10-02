@@ -101,7 +101,7 @@
   grid-gap: 0;
 }
 .red4 {
-  width: 100%; 
+  width: 50px; 
   height: 400px; 
   background-color: red; 
   grid-column: 1/2;
