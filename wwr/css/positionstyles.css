@@ -163,7 +163,7 @@
   display: grid;
   grid-template-rows: repeat(6, 100px);
   grid-template-columns: repeat(6, 100px);
-  position: relative;
+  position: absolute;
 }
 .red6 {
   width: 400px; 
@@ -186,7 +186,7 @@
   height: 400px;
   grid-column: 3/7;
   grid-row: 5/7;
-  z-index: 3; /* what the hey */
+  z-index: 3;
   background-color: gold; 
 } 
 .blue6 {
