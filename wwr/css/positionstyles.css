@@ -163,7 +163,7 @@
   display: grid;
   grid-template-rows: repeat(6, 100px);
   grid-template-columns: repeat(6, 100px);
-  position: relative;
+  position: absolute;
 }
 .red6 {
   width: 400px; 
