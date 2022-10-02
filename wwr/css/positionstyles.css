@@ -67,6 +67,7 @@
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+  padding: 20px;
 }
 .red3 {
   width: 100%; 
@@ -160,7 +161,8 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  grid-template-columns: repeat(6, 100px);
 }
 .red6 {
   width: 400px; 
