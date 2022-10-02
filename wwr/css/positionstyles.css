@@ -149,13 +149,10 @@
 .yellow5 {
   padding: 20px;
   height: 300px;
-  width: calc(600px - 20px * 2);
+  min-width: 900px;
   background-color: gold; 
-
 } 
 .blue5 {
-  width: 100%; 
-  height: 100px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
