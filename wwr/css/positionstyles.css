@@ -94,7 +94,6 @@
 /* solve by using grid */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 100px 100px;
