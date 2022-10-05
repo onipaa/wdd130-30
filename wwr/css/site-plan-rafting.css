@@ -219,6 +219,7 @@ ids:
   top: 50%;
   left: 50%;
   color: white;
+  font-family: var(--heading-font);
 }
 
 #logo-link {
@@ -275,6 +276,7 @@ ids:
 
 .rivers-card .camping-card .rapids-card {
   margin-top: 200px 0;
+  font-family: var(--heading-font)
 }
 
 .card-img {
