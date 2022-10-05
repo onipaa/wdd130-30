@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Great+Vibes&family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Great+Vibes&family=Quicksand=family=Righteous:wght@300;500;700&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -14,7 +14,7 @@ Fonts are separated by a & */
   --footer-background-color: rgba(20,30,13, .7);
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Archivo Black", Arial, sans-serif;
+  --heading-font: Righteous, Arial, sans-serif;
   --paragraph-font: Quicksand, Arial, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
