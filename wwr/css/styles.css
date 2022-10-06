@@ -179,7 +179,8 @@ section h2 {
 #background {
     grid-column: 1/11;
     grid-row: 7/14;
-    background-color: #d9c2a3;
+    /* background-color: #d9c2a3; */
+    background-color: var(--primary-color);
     height: 725px;
 }
 .mountains {
