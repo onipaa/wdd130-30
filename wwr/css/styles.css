@@ -247,15 +247,14 @@ footer a:hover {
 }
 .river1-text, .river2-text {
     background-color: #d9c2a3;
-    overflow: hidden; /* ADDED */
-    height: auto; /* ADDED */
+    overflow: hidden;
+    height: auto;
     height: 250px;
     padding: 35px;
     line-height: 1.5em;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-/* media queries will just be given and explained briefly */
 @media screen and (max-width: 900px) {
     nav, #hero, .home-grid, footer {
       display: block;
