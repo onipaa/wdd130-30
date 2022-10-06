@@ -118,8 +118,12 @@ h4 {
     text-align: center;
 }
 .book, .join {
+    /*
     background-color: #d9c2a3;
     color: black;
+    */
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
     padding: 15px 30px;
     margin-top: 50px;
     font-size: 18px;
