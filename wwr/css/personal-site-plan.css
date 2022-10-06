@@ -103,6 +103,7 @@ p.colored {
 nav {
   background-color: #F2811D;
   color: #147358;
+  font-family: var(--heading-font);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
