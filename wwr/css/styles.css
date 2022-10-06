@@ -40,7 +40,8 @@ body {
 }
 /* Header */
 header {
-    background-color: rgba(20,30,13, .7);
+    /*background-color: rgba(20,30,13, .7); */
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 200px auto;
 }
@@ -64,14 +65,18 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: #fcfbfb;
+    /* color: #fcfbfb; */
+    color: var(--accent1-color);
     padding: 35px;
     text-align: center;
     
 }
 nav a:hover {
-    color: #d9c2a3;
+    /* color: #d9c2a3;
     background-color: black; 
+    */
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 /* Hero Images and message */
@@ -331,7 +336,6 @@ footer a:hover {
         margin-top: 25px;
     }
     
-    /* Rivers page -- they will do their own responsiveness on child pages if they want it */
     .rivers-grid {
         display: block;
         margin: 10px;
