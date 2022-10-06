@@ -286,7 +286,7 @@ footer a:hover {
     grid-row: 7/8;
 }
 .river1-text, .river2-text {
-    background-color: #d9c2a3;
+    background-color: var(--primary-color);
     overflow: hidden;
     height: auto;
     height: 250px;
