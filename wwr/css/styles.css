@@ -209,7 +209,7 @@ section h2 {
 }
 /* Footer */
 footer {
-    background-color: #6f7364;
+    background-color: #010440;
     margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
