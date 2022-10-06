@@ -295,7 +295,7 @@ ids:
 }
 
 .icon {
-  width: 80px;
+  max-width: 80px;
 }
 
 .rivers-card .camping-card .rapids-card {
