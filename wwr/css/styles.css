@@ -380,3 +380,12 @@ footer a:hover {
     text-align: center;
     z-index: 1;
 }
+
+.home1-title {
+    font-family: var(--heading-font);
+    font-size: 60px;
+    letter-spacing: 4px;
+    color: #F2C335;
+    margin-top: 20px;
+    grid-column: 2/5;
+}
