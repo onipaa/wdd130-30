@@ -374,6 +374,8 @@ footer a:hover {
     z-index: 1;
 }
 #hero1-msg h1, #hero1-msg h4 {
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
     z-index: 1;
 }
