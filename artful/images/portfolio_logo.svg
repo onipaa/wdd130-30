@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="768" height="1024" viewBox="0, 0, 768, 1024">
+  <g id="Layer_1">
+    <g>
+      <g>
+        <g>
+          <path d="M216.917,286.366 C218.612,269.856 226.147,247.944 251.364,232.473" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+          <path d="M216.917,286.366 L216.551,293.557 M210.558,293.251 L222.543,293.862" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+          <path d="M255.505,227.267 C257.416,227.815 258.521,229.809 257.973,231.72 C257.425,233.631 255.431,234.736 253.52,234.188 C251.609,233.64 250.504,231.646 251.052,229.735 C251.6,227.824 253.594,226.719 255.505,227.267" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+        </g>
+        <g>
+          <path d="M216.917,302.734 C218.612,319.244 226.147,341.155 251.364,356.627" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+          <path d="M216.917,302.734 L216.551,295.543 M222.543,295.238 L210.558,295.848" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+          <path d="M257.973,357.38 C258.521,359.291 257.416,361.284 255.505,361.833 C253.594,362.381 251.6,361.276 251.052,359.365 C250.504,357.453 251.609,355.46 253.52,354.912 C255.431,354.363 257.425,355.468 257.973,357.38" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <path d="M359.491,286.966 C357.796,270.456 350.261,248.545 325.044,233.073" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+          <path d="M359.491,286.966 L359.857,294.157 M353.865,294.462 L365.85,293.852" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+          <path d="M318.435,232.32 C317.887,230.409 318.992,228.416 320.903,227.867 C322.814,227.319 324.808,228.424 325.356,230.335 C325.904,232.247 324.799,234.24 322.888,234.788 C320.977,235.337 318.983,234.232 318.435,232.32" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+        </g>
+        <g>
+          <path d="M359.491,303.334 C357.796,319.844 350.261,341.756 325.044,357.227" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+          <path d="M359.491,303.334 L359.857,296.143 M365.85,296.449 L353.865,295.838" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+          <path d="M320.903,362.433 C318.992,361.885 317.887,359.891 318.435,357.98 C318.983,356.069 320.977,354.964 322.888,355.512 C324.799,356.06 325.904,358.054 325.356,359.965 C324.808,361.876 322.814,362.981 320.903,362.433" fill-opacity="0" stroke="#000000" stroke-width="2" stroke-opacity="1"/>
+        </g>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 287.82, 230.55)">
+        <tspan x="-5.85" y="18" font-family="Alta_caption" font-size="60" fill="#000000">J</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 287.941, 359)">
+        <tspan x="-17.01" y="18" font-family="Alta_caption" font-size="60" fill="#000000">H</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 288.925, 289.875)">
+        <tspan x="-49.05" y="-0.875" font-family="Zapfino" font-size="10" fill="#000000">John M Harper</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 288.112, 316.375)">
+        <tspan x="-31.621" y="-4.875" font-family="FluxArchitect" font-size="10" fill="#000000">A R T F U L</tspan>
+        <tspan x="-36.987" y="6.125" font-family="FluxArchitect" font-size="10" fill="#000000">d e s i g n s</tspan>
+      </text>
+      <path d="M228.5,296 L348,296" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
