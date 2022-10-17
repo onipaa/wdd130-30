@@ -113,7 +113,9 @@ footer .social img {
 }
 footer p {
     color: var(--secondary-color);
+    grid-column: 1/3;
 }
 .social {
+    grid-column: 3/5;
     justify-self: end;
 }
