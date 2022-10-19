@@ -40,12 +40,9 @@ body {
 #content {
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.splash-grid {
-    display:grid;
-    background-color: var(--background-color);
+    display: grid;
     grid-template-columns: 360px 720px 360px;
+    grid-template-rows: 100px 720px 1fr 100px;
 }
 /* *****************************************************************************
 header and nav
