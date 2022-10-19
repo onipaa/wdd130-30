@@ -51,15 +51,12 @@ header {
     /*background-color: rgba(20,30,13, .7); */
     background-color: var(--header-background-color);
     display: grid;
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
+    grid-area: 1 / 1 / 1 / 4;
 }
-img.logo {
-    width: 720px;
+
+img .logo {
     height: auto;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    z-index: -1;
+    grid-area: 2 / 2 / 2 / 2;
 }
 
 #logo_link{
