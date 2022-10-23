@@ -41,14 +41,13 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 360px 720px 360px;
-    grid-template-rows: 100px 720px 520px 100px;
+    grid-template-rows: 100px 720px 720px 100px;
     background-color: var(--background-color);
 }
 /* *****************************************************************************
 header and nav
 ***************************************************************************** */
 header {
-    /*background-color: rgba(20,30,13, .7); */
     background-color: var(--header-background-color);
     display: grid;
     /*grid-area: 1 / 1 / 1 / 4; */
@@ -102,9 +101,11 @@ nav a:hover {
 }
 
 .trees {
-    grid-row-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 4;
+    z-index: 1;
 }
 
 .trees .tree-line-full {
@@ -143,7 +144,17 @@ footer p {
 /* *****************************************************************************
 slides
 ***************************************************************************** */
+.slides {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    padding-top: 100px;
+}
 
 .mySlides {
     display: none;
+    align-self: center;
+    justify-self: center;
+    z-index: 99;
+    background-color: black;
   }
