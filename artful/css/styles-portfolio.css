@@ -156,5 +156,6 @@ slides
     align-self: center;
     justify-self: center;
     z-index: 99;
-    background-color: black;
+    border-color: #F2811D;
+    border-width: thick;
   }
