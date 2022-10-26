@@ -131,6 +131,7 @@ footer p {
     align-self: center;
     justify-self: left;
     padding: 20px;
+    /* a change because the last one did not seem to push to github */
 }
 .social {
     grid-column: 3/4;
