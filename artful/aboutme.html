@@ -4,35 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artful Portfolio Page</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Artful Portfolio</title>
+    <link href="css/styles-aboutme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <div id="content">
         <header>
             <nav>
+                <a href="splash.html">Splash</a>
                 <a href="index.html">Home</a>
                 <a href="aboutme.html">About Me</a>
                 <a href="portfolio.html">Portfolio</a>
             </nav>
         </header>
 
-        <main class="hover-under">
-            <section id="trees">
-                <a id="logo_link" href="index.html">
-                    <img class="trees" src="images/tree-line.svg" alt="JMH Artful Logo">
-                </a>
-            </section>
-        </main>
+        <div class="trees">
+            <img class="treeline-full" src="images/whole-art-sunset.svg" alt="Tree line Full">
+        </div>
 
-        <footer class="footer-grid">
-            <h3>JMH Artful Designs &copy; 2022 WDD 130-30 John M Harper <a href="https://onipaa.github.io/wdd130-30/wwr/personal-site-plan.html">Site Plan</a></h3>       
+        <div class="wedding">
+            <img src="images/wedding.svg" alt="Whitney Wedding">
+        </div>
+        
+        <div class="daughters">
+            <img src="images/daughters.svg" alt="My Daughters">
+        </div>
+
+        <footer class="footer">
+            <p>JMH Artful Designs &copy; 2022 WDD 130-30 John M Harper <a href="https://onipaa.github.io/wdd130-30/wwr/personal-site-plan.html">Site Plan</a></p>       
             <div class="social">
                 <a href="https://facebook.com"><img src="images/facebook.png" alt="fb icon"></a>
                 <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
                 <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
             </div>
         </footer>
-    </div> 
+    </div>
+
+    <script>
+        // set the index to 1 and then call the showDivs function to show the first image.
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        // adds/subtracts 1 from the slideIndex variable
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        // Shows images
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
 </body>
 </html>
