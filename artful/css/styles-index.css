@@ -225,6 +225,16 @@ footer p {
     justify-self: left;
     padding: 20px;
 }
+
+.footer a:active {
+    text-decoration: underline;
+    color: var(--secondary-color)    
+}
+
+.footer a:visited {
+    text-decoration: underline;
+    color: var(--secondary-color)
+}
 .social {
     grid-column: 3/4;
     justify-self: end;
